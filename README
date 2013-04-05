@@ -1,0 +1,7 @@
+This is the md5 brute-force cracker based on CPU
+It would lauch threads to crack md5 concurrently 
+You can use encrypt_md5 to generate the encrypted-text for password
+
+If you have specific variables that need to be 32-bits on both platforms, define the type to be int.
+
+If the variable should be 32-bits on 32-bit systems and 64-bits on 64-bit systems, define them to be long.
